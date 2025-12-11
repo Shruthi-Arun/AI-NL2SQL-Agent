@@ -1,9 +1,14 @@
 # AI-Powered Natural Language to SQL Database Agent
 
 ## Project Summary
-This project is an **AI-driven SQL agent** designed to convert natural-language questions into executable SQL queries for a PostgreSQL database. It integrates **dynamic schema and foreign-key discovery**, **complexity-based model routing**, **LLM-generated SQL**, **self-correction of errors**, and **logging of all interactions**.  
+This project is an **AI-Powered Natural Language to SQL Database Agent** designed to convert natural-language questions into executable SQL queries for a PostgreSQL database. It integrates **dynamic schema and foreign-key discovery**, **complexity-based model routing**, **LLM-generated SQL**, **self-correction of errors**, and **logging of all interactions**.  
 
-The agent allows users to interact with the database naturally without writing SQL themselves while leveraging large language models (LLMs) efficiently for different query complexities.
+The agent allows users to interact with the database naturally without writing SQL themselves while leveraging large language models (LLMs) efficiently for different query complexities.  
+
+The project aims to build a tool that lets users query a PostgreSQL database using natural language, removing the need for SQL knowledge. A locally hosted LLM (LLaMA 3 via Ollama) converts user input to SQL, making data access easier for non-technical users.  
+
+Using a local LLM helps ensure **data privacy**, reduces reliance on external APIs, and improves **response time**. It also provides a practical foundation for exploring how language models can assist in **structured query generation**.
+
 
 ---
 
